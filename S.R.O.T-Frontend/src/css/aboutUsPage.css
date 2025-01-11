@@ -1,0 +1,183 @@
+body {
+    background-color: #f9fafb; /* Lighter background */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    color: #111827; /* Dark gray text */
+    margin: 0;
+  }
+.main-page {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.text {
+    padding-left: 30px; /* Adds space between the image and text */
+  }
+
+
+.white-border {
+    background-color: white; /* Sets the background color to white */
+    width: 1200px; /* Sets the width of the rectangle */
+    margin: 0 auto; /* Centers the rectangle horizontally */
+    padding: 20px; /* Adds space inside the rectangle for the content */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better visibility */
+}
+
+.picborder{
+  display: flex;
+}
+
+.mb-3{
+  padding-bottom: 25px;
+}
+
+.mb{
+  padding: 10px;
+}
+
+.about-us-container {
+    display: flex;
+    width: 1400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.hotbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(111, 138, 220, 0.5); /* Royal Blue with 50% transparency */
+    padding: 10px 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    margin-bottom: 100px; /* Space below the hotbar */
+  }
+  
+  .nav-item {
+    color: white; /* White text */
+    font-size: 1rem; /* Font size */
+    font-weight: 500; /* Medium weight */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-item a {
+    color: inherit; /* Inherit color from the parent .nav-item */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-item:hover {
+    background-color: var(--secondary-color); /* Secondary color on hover */
+    color: var(--primary-color); /* Primary color text on hover */
+  }
+  
+  .nav-item a:hover {
+    color: var(--primary-color); /* Ensure text color changes on hover */
+  } 
+  
+
+
+  .features {
+    display: flex;
+    flex-direction: column; /* Stacks the features vertically */
+    gap: 10px; /* Adds space between each feature */
+  }
+
+.picabtus {
+    width: 100%; /* Ensures the image fits its column */
+    max-width: 500px; /* Sets a maximum width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.1);
+  }
+about-us-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.about-us-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.back-button-about-us {
+  padding: 10px 30px;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(61, 98, 150);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 950px;
+  margin-bottom: 15px;
+}
+
+.back-button-about-us:hover {
+    background-color: #0056b3;
+}
+
+.about-us-content {
+    width: 100%;
+    max-width: 800px;
+}
+
+.about-us-box {
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-box p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.dev-intro {
+ padding-top: 50px;
+ padding-bottom: 50px;
+font-weight: bold;
+}
+.features .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.feature-item svg {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.bsb-btn-x200 {
+    background-color: rgb(93, 130, 181);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dev-intro {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+

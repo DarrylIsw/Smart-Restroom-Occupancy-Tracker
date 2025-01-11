@@ -1,0 +1,147 @@
+/* DataPage.css */
+.off{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .off::-webkit-scrollbar {
+    display: none;
+  }
+.data-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.data-page-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.back-button-data {
+    padding: 12px 55px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(61, 98, 150);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 770px;
+    margin-bottom: 15px;
+}
+
+.back-button-data:hover {
+    background-color: #0056b3;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #3d6296;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.filter-section {
+    margin-top: 5px;
+}
+
+.filter-dropdown { 
+    margin-top: 10px;
+}
+.flex w-72 flex-col gap-6{
+    margin-top: 10px;
+
+}
+.data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.data-table td {
+    color: #333;
+    font-size: 14px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.download-button:hover {
+    background-color: #218838;
+}
+
+.clear-logs-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.clear-logs-button:hover {
+    background-color: #99202c;
+}
+/* .data-title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: -30px;
+    margin-right: 20px;
+    color: white;
+} */
+
+.clear-filter-button {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.clear-filter-button:hover {
+    background-color: #d32f2f;
+}
